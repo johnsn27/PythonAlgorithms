@@ -1,5 +1,8 @@
 # Takes an array of integers and returns an array containing (all) the positions of the largest integer in the array
 
+from Week2.Question3 import biggestIn
+from Week2.Question4 import biggestInPos
+
 def biggestInPositions(arrayOfNumbers, arrayOfIndexes = [], biggestNumberInWholeList=0, index=0):
     if len(arrayOfNumbers)==0:
         for i in range(len(arrayOfIndexes)):
